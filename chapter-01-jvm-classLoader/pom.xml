@@ -11,7 +11,9 @@
 
     <artifactId>chapter-01-jvm-classLoader</artifactId>
     <name>第一章 JVM ClassLoader 类加载器 </name>
+    <description> JVM 类加载器 </description>
     <inceptionYear>2021-Now</inceptionYear>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -26,7 +28,7 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
-    <description> JVM 类加载器 </description>
+
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
