@@ -1,4 +1,4 @@
-package com.calvin.jvm.structure;
+package com.calvin.jvm.structure.heap;
 
 import java.util.ArrayList;
 import java.util.List;

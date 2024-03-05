@@ -1,7 +1,4 @@
-package com.calvin.jvm.structure.example;
-
-import com.calvin.jvm.structure.Heap;
-import jdk.jfr.internal.JVM;
+package com.calvin.jvm.structure.heap.question.example;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.calvin.jvm.heap.gc.example;
+package com.calvin.jvm.structure.heap.gc.example;
 
 /**
  * 新生代 MinorGC 触发

@@ -1,4 +1,4 @@
-package com.calvin.jvm.structure;
+package com.calvin.jvm.structure.stack;
 
 /**
  * 栈空间
@@ -27,14 +27,15 @@ public class StackSpace {
         */
        int i = 1;
        int j = i + 1;
-
     }
+
+
 }
 
 /**
  * 通过 javap -c -v StackSpace.class 命令，查询Class文件汇编后指令
  *
- * public class com.calvin.jvm.structure.StackSpace
+ * public class com.calvin.jvm.structure.stack.StackSpace
  *   minor version: 0
  *   major version: 52
  *   flags: ACC_PUBLIC, ACC_SUPER
@@ -61,7 +62,7 @@ public class StackSpace {
  *   #20 = Utf8               com/calvin/jvm/structure/StackSpace
  *   #21 = Utf8               java/lang/Object
  * {
- *   public com.calvin.jvm.structure.StackSpace();
+ *   public com.calvin.jvm.structure.stack.StackSpace();
  *     descriptor: ()V
  *     flags: ACC_PUBLIC
  *     Code:

@@ -1,4 +1,4 @@
-package com.calvin.jvm.heap.gc.example;
+package com.calvin.jvm.structure.heap.gc.example;
 
 /**
  * 老年代 Major GC / Full GC 触发
@@ -44,6 +44,7 @@ public class MajorGcOrFullGcTrigger {
      */
     public static void fullGc() throws InterruptedException {
         // A对象 => 占用80MB
+
         byte[] a = new byte[1024 * 1024 * 80];
         System.out.println("A对象: " + a.length / 1024 / 1024 + "MB");
 

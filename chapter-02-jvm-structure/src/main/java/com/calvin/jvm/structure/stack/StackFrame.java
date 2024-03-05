@@ -1,4 +1,4 @@
-package com.calvin.jvm.structure;
+package com.calvin.jvm.structure.stack;
 
 /**
  * 栈帧

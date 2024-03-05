@@ -1,6 +1,4 @@
-package com.calvin.jvm.structure;
-
-import com.sun.org.apache.xerces.internal.impl.xpath.regex.Match;
+package com.calvin.jvm.structure.metaspace;
 
 /**
  * 方法区（元空间）
@@ -9,7 +7,7 @@ import com.sun.org.apache.xerces.internal.impl.xpath.regex.Match;
  * @date 2023/5/11
  * @since v1.0.0
  */
-public class MetaData {
+public class Metaspace {
 
     /**
      * 静态常量
