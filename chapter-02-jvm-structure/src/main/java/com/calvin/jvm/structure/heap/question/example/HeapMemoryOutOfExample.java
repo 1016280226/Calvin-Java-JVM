@@ -208,7 +208,7 @@ public class HeapMemoryOutOfExample {
     public static void main(String[] args) throws InterruptedException {
 
         // // 案例一: 递归深度长 -> 导致内存溢出
-        // recursionDeepLong();
+        recursionDeepLong();
         // // 案例二: 对象设置指定内存，超过设置内存 -> 导致内存溢出
         // moreThanHeapSize();
         // // 案例三: 一次性查询MySQL大数据表，超过设置内存 -> 导致内存溢出
